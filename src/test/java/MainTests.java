@@ -1,3 +1,7 @@
+import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -8,6 +12,10 @@ import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
 public class MainTests {
+    @BeforeAll
+    static void beforeAll(){
+        SelenideLogger.addListener("allure", new AllureSelenide());
+    }
     @BeforeEach
     void beforeEach() {
         open("https://www.automationexercise.com/");
