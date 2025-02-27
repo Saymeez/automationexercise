@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b66aed0-10ed-4119-9622-f82777233e20" name="Changes" comment="added some tests">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTests.java" afterDir="false" />
+    <list default="true" id="2b66aed0-10ed-4119-9622-f82777233e20" name="Changes" comment="workspace changed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +72,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.FirstTest.executor": "Run",
-    "Gradle.MainTests.executor": "Run",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "Gradle.automationexercise [allureServe].executor": "Run",
-    "Gradle.automationexercise.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.FirstTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MainTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.automationexercise [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.automationexercise.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pnaza\IdeaProjects\automationexercise" />
@@ -185,7 +184,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740473367206</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added allure plugin">
+      <option name="closed" value="true" />
+      <created>1740476491249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740476491249</updated>
+    </task>
+    <task id="LOCAL-00008" summary="workspace changed">
+      <option name="closed" value="true" />
+      <created>1740476525218</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740476525218</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,6 +210,8 @@
     <MESSAGE value="added class firstTest" />
     <MESSAGE value="build.gradle updated" />
     <MESSAGE value="added some tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some tests" />
+    <MESSAGE value="added allure plugin" />
+    <MESSAGE value="workspace changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace changed" />
   </component>
 </project>
