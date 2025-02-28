@@ -27,23 +27,23 @@ public class SignUpPage {
         return this;
     }
 
-    public SignUpPage clickCreateAccountButton(){
+    public SignUpPage clickCreateAccountButton() {
         $(by("data-qa", "create-account")).scrollTo().click();
         return this;
     }
 
-    public SignUpPage verifyAccountCreatedHeader(){
+    public SignUpPage verifyAccountCreatedHeader() {
         $(by("data-qa", "account-created")).getText().equals("Account Created!");
         return this;
     }
 
-    public SignUpPage verifyFilledNameAndEmail(){
-        $("#name").getValue().equals("John Smith");
-        $("#email").getValue().equals("JohnSmith1225@gmail.com");
+    public SignUpPage verifyFilledNameAndEmail(String name, String email) {
+        $("#name").getValue().equals(name);
+        $("#email").getValue().equals(email);
         return this;
     }
 
-    public SignUpPage clickContinueButton(){
+    public SignUpPage clickContinueButton() {
         $(by("data-qa", "continue-button")).click();
         return this;
     }

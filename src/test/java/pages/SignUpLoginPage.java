@@ -2,6 +2,7 @@ package pages;
 
 import com.codeborne.selenide.SelenideElement;
 
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.by;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
@@ -50,5 +51,12 @@ public class SignUpLoginPage {
         loginButton.click();
         return this;
     }
-
+    public SignUpLoginPage verifyIncorrectLoginDataTextIsVisible() {
+        $(byText("Your email or password is incorrect!")).shouldBe(visible);
+        return this;
+    }
+    public SignUpLoginPage verifyIncorrectSignupDataTextIsVisible() {
+        $(byText("Email Address already exist!")).shouldBe(visible);
+        return this;
+    }
 }
